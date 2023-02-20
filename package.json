@@ -1,0 +1,35 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "open-dev": "cypress open --env configFile=dev",
+    "open-dev-chrome": "cypress open --browser chrome --env configFile=dev",
+    "run-dev": "cypress run --env configFile=dev",
+    "open-qa": "cypress open --env configFile=qa",
+    "run-qa": "cypress run --env configFile=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/frontend-step-definitions/**/",
+    
+    "cucumberJson": {
+      "generate": true
+    }
+  },
+  "dependencies": {
+    "cypress": "^9.6.0",
+    "fs-extra": "^11.1.0",
+    "mocha": "^9.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "path": "^0.12.7",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3"
+  }
+}

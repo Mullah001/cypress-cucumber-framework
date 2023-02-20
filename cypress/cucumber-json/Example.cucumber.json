@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    This is an example feature file",
+    "keyword": "Feature",
+    "name": "Example feature file",
+    "line": 1,
+    "id": "example-feature-file",
+    "tags": [],
+    "uri": "Example.feature",
+    "elements": [
+      {
+        "id": "example-feature-file;verify-the-logo-is-visible",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify the logo is visible",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit automation exercise website",
+            "result": {
+              "status": "passed",
+              "duration": 9808000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify webiste logo is visible",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "example-feature-file;verify-the-title-of-website",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify the title of website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit automation exercise website",
+            "result": {
+              "status": "passed",
+              "duration": 4717000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify the title of the website",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
