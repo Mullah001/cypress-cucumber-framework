@@ -17,7 +17,6 @@
   "license": "ISC",
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/frontend-step-definitions/**/",
-    
     "cucumberJson": {
       "generate": true
     }

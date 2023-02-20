@@ -65,3 +65,15 @@ The project contains four folders inside the integration that contains all the f
 - For step definitions classes: use Screen_Feature-step-def e.g. **Example-step-def.js**
 - For page classes: use Screen_Feature.spec e.g. **Example.spec.js**
 - For Feature file: use Screen_Feature e.g. **Example.feature**
+
+## Folder Structure
+
+- **cypress** Root Folder
+- **cypress/common** Support files 
+- **cypress/data-files** data-files 
+- **cypress/environments** environment files:** 
+- **cypress/integration** feature and step-definition files
+- **cypress/pages** POM files
+- **cypress/plugins** plugins
+- **cypress.json** configurations file 
+

@@ -1,4 +1,4 @@
-Feature: Example feature file
+Feature: Example feature file for UI Testing
 
     This is an example feature file
 

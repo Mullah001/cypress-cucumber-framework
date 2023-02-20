@@ -1,0 +1,42 @@
+[
+  {
+    "description": "    This is an example feature file",
+    "keyword": "Feature",
+    "name": "Example feature file for API Testing",
+    "line": 1,
+    "id": "example-feature-file-for-api-testing",
+    "tags": [],
+    "uri": "API.feature",
+    "elements": [
+      {
+        "id": "example-feature-file-for-api-testing;i-verify-the-response-code-of-the-api",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "I verify the response code of the API",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I send request to API",
+            "result": {
+              "status": "undefined",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify response code is '200'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

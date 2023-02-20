@@ -2,14 +2,14 @@
   {
     "description": "    This is an example feature file",
     "keyword": "Feature",
-    "name": "Example feature file",
+    "name": "Example feature file for UI Testing",
     "line": 1,
-    "id": "example-feature-file",
+    "id": "example-feature-file-for-ui-testing",
     "tags": [],
     "uri": "Example.feature",
     "elements": [
       {
-        "id": "example-feature-file;verify-the-logo-is-visible",
+        "id": "example-feature-file-for-ui-testing;verify-the-logo-is-visible",
         "keyword": "Scenario",
         "line": 8,
         "name": "Verify the logo is visible",
@@ -22,8 +22,8 @@
             "line": 6,
             "name": "I visit automation exercise website",
             "result": {
-              "status": "passed",
-              "duration": 9808000000
+              "status": "undefined",
+              "duration": 77000000
             }
           },
           {
@@ -32,14 +32,13 @@
             "line": 9,
             "name": "I verify webiste logo is visible",
             "result": {
-              "status": "passed",
-              "duration": 57000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "example-feature-file;verify-the-title-of-website",
+        "id": "example-feature-file-for-ui-testing;verify-the-title-of-website",
         "keyword": "Scenario",
         "line": 11,
         "name": "Verify the title of website",
@@ -52,8 +51,8 @@
             "line": 6,
             "name": "I visit automation exercise website",
             "result": {
-              "status": "passed",
-              "duration": 4717000000
+              "status": "undefined",
+              "duration": 99000000
             }
           },
           {
@@ -62,8 +61,7 @@
             "line": 12,
             "name": "I verify the title of the website",
             "result": {
-              "status": "passed",
-              "duration": 83000000
+              "status": "skipped"
             }
           }
         ]
