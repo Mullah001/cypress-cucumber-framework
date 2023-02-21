@@ -20,6 +20,7 @@ The framework includes guidelines to coding standards, BDD approach that drive t
 - The Utilities & Resources Layer (L1): common, data-files, environments, cypress.json and plugins
 - The Pages / Microservices Layer (L2): pages and step definitions
 - The Test Suite Layer (L3): feature files
+
 ## Building the Project
 
 Create Build
@@ -44,10 +45,10 @@ Run the Test by using command line
 
 The project contains four folders inside the integration that contains all the feature file:
 
-- The backend-feature folder contains all the feature files for backend services
-- The backend-step-defintions folder contains the backend related step-defintion
-- The frontend-feature folder contains all the feature files for UI level tests
-- The frontend-step-defintions folder contains the UI Level step defintions
+- The backend-automation folder contains the backend related feature files
+- The common/backend folder contains the backend related step-defintion
+- The frontend-automation folder contains all the feature files for UI level tests
+- The common/frontend folder contains the UI Level step defintions
 
 
 ### Coding Standards Quick Checklist

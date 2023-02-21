@@ -5,7 +5,7 @@ class API {
      * This method will send the request and save the result as test
      */
     sendRequest() {
-        cy.request("GET", "https://reqres.in/api/users?page=2").as('test');
+        cy.request('https://jsonplaceholder.cypress.io/comments').as('comments');
     }
 
     /**
@@ -13,7 +13,7 @@ class API {
      * @param {number} responseCode response code to be verified
      */
     verifyResponseCode(responseCode) {
-        cy.get('@test').should((response) => {
+        cy.get('@comments').should((response) => {
             expect(response.status).to.eq(responseCode);
         });
     }

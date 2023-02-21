@@ -1,6 +1,6 @@
 
 import { Given, Then } from "cypress-cucumber-preprocessor/steps";
-import Example from "../../../pages/Example/Example.spec";
+import Example from "../../../../pages/Example/Example.spec";
 
 const example = new Example();
 
