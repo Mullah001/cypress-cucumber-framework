@@ -15,3 +15,7 @@ Then("I verify webiste logo is visible", () => {
 Then("I verify the title of the website", () => {
     example.verifyTitle();
 });
+
+Then("I capture the screenshot of recommended items", () => {
+    example.getRecommendedItemsScreenshot();
+});

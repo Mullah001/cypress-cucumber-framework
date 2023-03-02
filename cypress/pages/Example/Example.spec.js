@@ -24,4 +24,11 @@ class Example {
             cy.title().should('eq', dataFile.title);
         });
     }
+
+    /**
+     * This method will capture the screenshot of recommended items
+     */
+    getRecommendedItemsScreenshot() {
+        cy.get('.recommended_items').screenshot();
+    }
 } export default Example;

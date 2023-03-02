@@ -5,7 +5,7 @@ class API {
      * This method will send the request and save the result as test
      */
     sendRequest() {
-        cy.request('https://jsonplaceholder.cypress.io/comments').as('comments');
+        cy.request(Cypress.env("api_url")).as('comments');
     }
 
     /**
@@ -15,6 +15,15 @@ class API {
     verifyResponseCode(responseCode) {
         cy.get('@comments').should((response) => {
             expect(response.status).to.eq(responseCode);
+        });
+    }
+
+    /**
+     * This method will verify the response code
+     */
+    verifyResponseLength() {
+        cy.get('@comments').should((response) => {
+            expect(response.body).to.have.length(500);
         });
     }
 

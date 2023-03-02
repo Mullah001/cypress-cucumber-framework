@@ -13,7 +13,7 @@
   "experimentalSessionAndOrigin": false,
   "numTestsKeptInMemory": 40,
   "retries": {
-    "runMode": 1
+    "runMode": 2
   },
   "env": {},
   "reporter": "junit",

@@ -1,5 +1,4 @@
 
-import { expect } from "chai";
 import { Given, Then } from "cypress-cucumber-preprocessor/steps";
 import API from "../../../../pages/API/API.spec";
 
@@ -11,4 +10,8 @@ Given("I send request to API", () => {
 
 Then("I verify response code is {int}", (responseCode) => {
     api.verifyResponseCode(responseCode);
+});
+
+Then("I verify response length is 500", () => {
+    api.verifyResponseLength();
 });
