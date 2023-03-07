@@ -10,6 +10,7 @@
   "chromeWebSecurity": false,
   "viewportWidth": 1700,
   "viewportHeight": 1200,
+  "trashAssetsBeforeRuns": true,
   "experimentalSessionAndOrigin": false,
   "numTestsKeptInMemory": 40,
   "retries": {
