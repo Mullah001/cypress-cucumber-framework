@@ -13,6 +13,7 @@ class Example {
     verifyLogo() {
         cy.readFile('cypress/pages/Example/Example-loc.json').then((locator) => {
             cy.get(locator.logo).should('be.visible');
+            //cy.xpath(locator.logoXpath).should('be.visible');
         });
     }
 

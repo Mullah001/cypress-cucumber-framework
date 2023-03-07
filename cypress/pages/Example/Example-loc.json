@@ -1,3 +1,4 @@
 {
-    "logo": "#header .logo"
+  "logo": "#header .logo",
+  "logoXpath": "//div[contains(@class,'logo')]"
 }
